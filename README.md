@@ -28,4 +28,4 @@ As a final test I tried the Blink Sketch under File->Examples->ESP8266->Blink wi
 
 ![test](https://github.com/hultarn/ESP8266-ESP-01/blob/main/schematic_3.png)
 
-And with everything working I was done with this small project.
+And with everything working I was done with this small project and the Arduino could be removed.
