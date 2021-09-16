@@ -16,6 +16,7 @@ Before outloading a Sketch to the ESP8266 I'll change the Baud Rate using AT com
 
 # Adding some wires
 To get the Arduino to pass the Sketch to the ESP8266 I direcly connected the Arduinos RST pin to GND. To enter programming mode on the ESP8266 both it's RST pin and GP0 needs to be connected to GND. 
+![](https://github.com/hultarn/ESP8266-ESP-01/blob/main/schematic_2.png)
 
 # How to upload
 Then when the Arduino IDE tries to connect to the ESP8266 I broke the connection between RST and GND and when a connection was made I broke the connection between GP0 and GND. I broke the connection manually but buttons could also have been used. 
