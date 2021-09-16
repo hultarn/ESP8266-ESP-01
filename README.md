@@ -6,7 +6,6 @@ Since the ESP8266 ESP-01 isn't breadboard friendly I will be using an ESP8266 br
 
 ![](https://github.com/hultarn/ESP8266-ESP-01/blob/main/schematic_1.png)
 
-
 Don't power the ESP8266 with 5V since it will ruin the board. The voltage divider is necessary since the Arduino Uno outputs 5V on it's digital outputs. The Ohm on the resistors doesn't really matters as long as they are the same.
 
 
