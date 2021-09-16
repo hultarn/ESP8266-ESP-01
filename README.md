@@ -24,4 +24,8 @@ To get the Arduino to pass the Sketch to the ESP8266 I direcly connected the Ard
 Then when the Arduino IDE tries to connect to the ESP8266 I broke the connection between RST and GND and when a connection was made I broke the connection between GP0 and GND. I broke the connection manually but buttons could also have been used. 
 
 # Final test
-As a final test I tried the Blink Sketch under File->Examples->ESP8266->Blink with the following additional wires and LED. And with everything working I was done with this small project.
+As a final test I tried the Blink Sketch under File->Examples->ESP8266->Blink with the following additional wires and LED. 
+
+![test](https://github.com/hultarn/ESP8266-ESP-01/blob/main/schematic_3.png)
+
+And with everything working I was done with this small project.
