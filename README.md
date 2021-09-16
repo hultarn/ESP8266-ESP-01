@@ -3,6 +3,7 @@ Base project for setting up the ESP8266 ESP-01 that will be used in future IoT a
 
 # Wiring
 Since the ESP8266 ESP-01 isn't breadboard friendly I will be using an ESP8266 breakout board. I'll also be using an Arduino Uno. 
+
 ![](https://github.com/hultarn/ESP8266-ESP-01/blob/main/schematic_1.png)
 
 Don't power the ESP8266 with 5V since it will ruin the board. The voltage divider is necessary since the Arduino Uno outputs 5V on it's digital outputs. The Ohm on the resistors doesn't really matters as long as they are the same.
@@ -16,6 +17,7 @@ Before outloading a Sketch to the ESP8266 I'll change the Baud Rate using AT com
 
 # Adding some wires
 To get the Arduino to pass the Sketch to the ESP8266 I direcly connected the Arduinos RST pin to GND. To enter programming mode on the ESP8266 both it's RST pin and GP0 needs to be connected to GND. 
+
 ![](https://github.com/hultarn/ESP8266-ESP-01/blob/main/schematic_2.png)
 
 # How to upload
