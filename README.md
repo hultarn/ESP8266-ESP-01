@@ -9,13 +9,13 @@ Don't power the ESP8266 with 5V since it will ruin the board. The voltage divide
 
 
 
-# Adding some wires
-To get the Arduino to pass the Sketch to the ESP8266 I direcly connected the Arduinos RST pin to GND. To enter programming mode on the ESP8266 both it's RST pin and GP0 needs to be connected to GND. 
-
 # Setting up the ESP8266 and Arduino IDE
 To work with the ESP8266 in the Arduino IDE I added the ESP8266 board by going into Settings->Additional Boards Manager URLs: and adding "http://arduino.esp8266.com/stable/package_esp8266com_index.json". Then under Tools->Board->Boards Manager I installed the esp8266 packet made by the ESP8266 Community, finally under Tools->Board I chose the "Generic ESP8266 Module"
 
 Before outloading a Sketch to the ESP8266 I'll change the Baud Rate using AT commands, going from 115200 to 9600. To do this I opened the Serial monitor in the Arduino IDE, set the Baud Rate to 115200 and set the line breaks to both NL & CR. Finally I typed the following command "AT+UART_DEF=9600,8,1,0,0".
+
+# Adding some wires
+To get the Arduino to pass the Sketch to the ESP8266 I direcly connected the Arduinos RST pin to GND. To enter programming mode on the ESP8266 both it's RST pin and GP0 needs to be connected to GND. 
 
 # How to upload
 Then when the Arduino IDE tries to connect to the ESP8266 I broke the connection between RST and GND and when a connection was made I broke the connection between GP0 and GND. I broke the connection manually but buttons could also have been used. 
