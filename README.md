@@ -4,7 +4,7 @@ Base project for setting up the ESP8266 ESP-01 that will be used in future IoT a
 # Wiring
 Since the ESP8266 ESP-01 isn't breadboard friendly I will be using an ESP8266 breakout board. I'll also be using an Arduino Uno. 
 
-![alt text](https://github.com/hultarn/ESP8266-ESP-01/blob/main/Untitled%20Sketch%202_bb.png?raw=true width=100)
+![alt text](https://github.com/hultarn/ESP8266-ESP-01/blob/main/Untitled%20Sketch%202_bb.png?raw=true)
 
 Don't power the ESP8266 with 5V since it will ruin the board. The voltage divider is necessary since the Arduino Uno outputs 5V on it's digital outputs.
 
