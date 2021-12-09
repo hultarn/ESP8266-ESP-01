@@ -1,5 +1,5 @@
 # ESP8266-ESP-01
-Base project for setting up the ESP8266 ESP-01 that will be used in future IoT appliactions
+Base project for setting up the ESP8266 ESP-01 that will be used in future IoT applications
 
 # Wiring
 Since the ESP8266 ESP-01 isn't breadboard friendly I will be using an ESP8266 breakout board. I'll also be using an Arduino Uno. 
